@@ -1,0 +1,16 @@
+
+@media (min-width: 500px) {
+    h1::before {
+        content: "Wellcome to Connect Learning Center!";
+    }
+}
+@media (max-width: 499px) {
+    h1::before {
+        content: "Connect Learning Center";
+    }
+}
+.logoImage {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
